@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 
 mongoose.set('strictQuery', false)
 
+//tää pitäis tulla nyt oikein
 const url = process.env.MONGODB_URI
 
 mongoose.connect(url)
